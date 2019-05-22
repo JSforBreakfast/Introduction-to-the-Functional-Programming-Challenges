@@ -4,7 +4,7 @@ var s = [23, 65, 98, 5];
 Array.prototype.myMap = function(callback){
   var newArray = [];
   // Add your code below this line
-  for (var i = 0; i < Array.length; i++){
+  for (var i = 0; i < this.length; i++){
 newArray.push(callback(this[i]));
 }
   // Add your code above this line
