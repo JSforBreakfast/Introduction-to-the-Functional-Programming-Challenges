@@ -116,8 +116,7 @@ var watchList = [
 
 let filteredList = watchList.filter(function(item){
 
-let num = Number(item.imdbRating);
-    if(num >= 8){
+    if(item.imdbRating >= 8){
         return item;
     }
 
